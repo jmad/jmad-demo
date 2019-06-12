@@ -7,13 +7,37 @@
   <artifactId>jmad-demo</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Jmad demo project</name>
+  <name>JMad demo project</name>
   <url>http://jmad.io</url>
+
+  <properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
+
+  <repositories>
+    <repository>
+      <id>jcenter</id>
+      <name>JCenter</name>
+      <url>http://jcenter.bintray.com</url>
+    </repository>
+  </repositories>
+
   <dependencies>
+
     <dependency>
       <groupId>jmad</groupId>
       <artifactId>jmad-core</artifactId>
       <version>0.2.5</version>
     </dependency>
+
+    <dependency>
+      <groupId>jmad</groupId>
+      <artifactId>jmad-modelpack-service</artifactId>
+      <version>0.3.0</version>
+    </dependency>
+
   </dependencies>
+
+
 </project>
