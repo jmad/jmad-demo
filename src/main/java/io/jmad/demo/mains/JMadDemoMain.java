@@ -7,20 +7,14 @@ import cern.accsoft.steering.jmad.model.JMadModel;
 import cern.accsoft.steering.jmad.modeldefs.domain.JMadModelDefinition;
 import cern.accsoft.steering.jmad.service.JMadService;
 import com.google.common.collect.Iterables;
-import org.jmad.modelpack.domain.ModelPackage;
 import org.jmad.modelpack.domain.ModelPackageVariant;
-import org.jmad.modelpack.domain.ModelPackages;
 import org.jmad.modelpack.domain.VariantType;
 import org.jmad.modelpack.service.JMadModelPackageService;
 import org.jmad.modelpack.service.conf.JMadModelPackageServiceStandaloneConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import reactor.core.publisher.Flux;
-import reactor.core.publisher.Mono;
 
-import java.awt.*;
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
 
